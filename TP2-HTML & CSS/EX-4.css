@@ -1,1 +1,153 @@
+body
+{
+margin: 0;
+padding:0 ;
+height: 100vh;
+}
 
+.container
+{
+margin: 20px;
+}
+
+.row
+{
+width: 100%;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.case-01{
+background-color: rgb(65, 115, 223);
+position: relative;
+flex: 1;
+justify-content: space-evenly;
+height: 75px;
+margin: 3px;
+border-style:solid ;
+border-color: rgb(37, 37, 139);
+border-width: 3px;
+}
+
+.case-02
+{
+background-color: rgba(163, 127, 127, 0.952);
+position: relative;
+flex: 1;
+height: 50px;
+margin: 3px;
+border-style:solid ;
+border-color: rgb(37, 37, 139);
+border-width: 3px;
+
+}
+
+.case-03-1
+{
+    background-color: rgba(192, 235, 248, 0.952);
+    position: relative;
+    flex: 1;
+    height: 100px;
+    margin: 5px;
+    border-style:solid ;
+    border-color: rgb(37, 37, 139);
+    border-width: 3px;
+}
+
+.case-03-2
+{
+    background-color: rgba(233, 186, 186, 0.952);
+    position: relative;
+    flex: 1;
+    height: 100px;
+    margin: 5px;
+    border-style:solid ;
+    border-color: rgb(37, 37, 139);
+    border-width: 3px;
+    
+}
+
+.case-03-3
+{
+    background-color: rgba(140, 221, 138, 0.952);
+    position: relative;
+    flex: 1;
+    height: 100px;
+    margin: 5px;
+    border-style:solid ;
+    border-color: rgb(37, 37, 139);
+    border-width: 3px;
+}
+
+.case-03-4
+{
+    background-color: rgba(247, 187, 130, 0.938);
+    position: relative;
+    flex: 1;
+    height: 100px;
+    margin: 5px;
+    border-style:solid ;
+    border-color: rgb(37, 37, 139);
+    border-width: 3px;
+}
+
+.case-04
+{
+background-color: rgb(6, 166, 230);
+position: relative;
+flex: 1;
+height: 100px;
+margin: 5px;
+border-style:solid ;
+border-color: rgb(37, 37, 139);
+border-width: 3px;
+}
+
+.case-05
+{
+background-color: rgb(186, 148, 223);
+position: relative;
+flex: 1;
+height: 75px;
+margin: 3px;
+border-style:solid ;
+border-color: rgb(37, 37, 139);
+border-width: 3px;
+}
+
+h4 {
+    text-align: center;
+    color: white;
+  }
+
+@media (max-width:600px) {
+    .case-04{
+        flex: 100%;
+        max-width: 500px ;
+    }
+
+    .case-03-1{
+        flex: 100%;
+        max-width: 500px 
+    }
+
+    .case-03-2{
+        flex: 100%;
+        max-width: 500px 
+
+    }
+    .case-03-3{
+        flex: 100%;
+        max-width: 500px 
+
+    }
+    .case-03-4{
+        flex: 100%;
+        max-width: 500px 
+
+    }
+
+}
+ 
+  
